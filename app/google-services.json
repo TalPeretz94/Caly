@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145545680661",
+    "firebase_url": "https://caly-a7702.firebaseio.com",
+    "project_id": "caly-a7702",
+    "storage_bucket": "caly-a7702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145545680661:android:6df1e9f9b3958ca2",
+        "android_client_info": {
+          "package_name": "com.example.caly.caly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145545680661-h215dhnfcbumosubq7331o1fn1o8kk1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV2wkjMLN6cJlnU3z8esuiPEHoajcX7Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/business_profile_photo_for_user_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_centerVertical="true"
+        android:src="@drawable/man1" />
+
+    <TextView
+        android:id="@+id/business_name_for_user_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/business_profile_photo_for_user_list"
+        android:paddingLeft="15dp"
+        android:text="@string/business_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/icons_user_res_list"
+        android:layout_toEndOf="@+id/business_name_for_user_list"
+        android:orientation="vertical"
+        android:paddingRight="35dp">
+
+        <TextView
+            android:id="@+id/date_for_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time_for_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hour"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/day_for_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/icons_user_res_list"
+
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/item_business_phone_for_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/item_cancel_for_user_list"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_phone_white_24dp" />
+
+        <ImageView
+            android:id="@+id/item_cancel_for_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_cancel_red_24dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

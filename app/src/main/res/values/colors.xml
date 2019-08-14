@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="colorPrimary">#5E35B1</color>
+    <color name="colorAccent">#7E57C2</color>
+    <color name="colorPrimaryLight">#B39DDB</color>
+    <color name="colorPrimaryLightBackground">#EDE7F6</color>
+    <color name="White">#ffffff</color>
+    <color name="linkBlue">#00438b</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="civ_border_color">#ff6861</color>
+
+    <color name="pink900">#880E4F</color>
+    <color name="pink800">#AD1457</color>
+    <color name="pink700">#C2185B</color>
+    <color name="pink600">#D81B60</color>
+    <color name="pink500">#E91E63</color>
+    <color name="pink400">#EC407A</color>
+    <color name="pink300">#F06292</color>
+    <color name="pink200">#F48FB1</color>
+    <color name="pink100">#F8BBD0</color>
+
+    <color name="pinkA900">#880E4F</color>
+    <color name="pinkA700">#C51162</color>
+    <color name="pinkA400">#F50057</color>
+    <color name="pinkA200">#FF4081</color>
+    <color name="pinkA100">#FF80AB</color>
+
+    <color name="purple900">#311B92</color>
+    <color name="purple700">#6200EA</color>
+    <color name="purple400">#651FFF</color>
+    <color name="purple200">#7C4DFF</color>
+    <color name="purple100">#B388FF</color>
+
+    <color name="cyan900">#01579B</color>
+    <color name="cyan700">#0091EA</color>
+    <color name="cyan400">#00B0FF</color>
+    <color name="cyan200">#40C4FF</color>
+    <color name="cyan100">#80D8FF</color>
+
+    <color name="blue900">#004D40</color>
+    <color name="blue700">#00BFA5</color>
+    <color name="blue400">#1DE9B6</color>
+    <color name="blue200">#64FFDA</color>
+    <color name="blue100">#A7FFEB</color>
+
+
+    <color name="red900">#b71c1c</color>
+    <color name="red800">#c62828</color>
+    <color name="red700">#d32f2f</color>
+    <color name="red600">#e53935</color>
+    <color name="red500">#f44336</color>
+    <color name="red400">#ef5350</color>
+    <color name="red300">#e57373</color>
+    <color name="red200">#ef9a9a</color>
+    <color name="red100">#ffcdd2</color>
+
+
+
+
+</resources>

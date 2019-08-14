@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main_business_screen"
+    android:id="@+id/calendarView_new"
+    tools:showIn="@layout/app_bar_main_business_screen">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/display_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view1"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/header"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="@color/colorAccent"
+        app:compactCalendarCurrentDayBackgroundColor="@color/colorPrimaryDark"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="@color/colorPrimary"
+        app:compactCalendarMultiEventIndicatorColor="@color/white"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="@color/white"
+        app:compactCalendarTextSize="12sp"
+
+        />
+
+    <ListView
+        android:id="@+id/compactcalendar_view_list1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/compactcalendar_view1"
+        android:background="@color/colorPrimaryLightBackground" />
+
+
+    <!--<fragment
+        android:id="@+id/fragment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/compactcalendar_view"
+        android:name="com.example.caly.caly.FragmentA"
+        />-->
+
+
+</RelativeLayout>

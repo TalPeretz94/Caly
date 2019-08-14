@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/business_profile_settings"
+        android:orderInCategory="100"
+        android:title="Profile Settings"
+        android:gravity="left|center_vertical"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/business_signout"
+        android:orderInCategory="100"
+        android:title="SignOut"
+        android:gravity="left|center_vertical"
+        app:showAsAction="never" />
+
+
+</menu>

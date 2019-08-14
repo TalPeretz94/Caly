@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_user_profile_image_reg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/man1"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#FF000000"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_register_name_wrapper"
+        android:layout_marginTop="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:id="@+id/business_register_name"
+            android:imeOptions="actionNext"
+            android:hint="@string/business_name"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_register_category_wrapper"
+        android:layout_marginTop="10dp">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/business_register_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/category_hint"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+        <Button
+            android:id="@+id/category_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:text="@string/pick_category_text" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_register_address_wrapper"
+        android:layout_marginTop="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:id="@+id/business_register_address"
+            android:imeOptions="actionNext"
+            android:hint="@string/business_reg_address"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_register_time_wrapper"
+        android:layout_marginTop="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:id="@+id/business_register_time"
+            android:imeOptions="actionNext"
+            android:hint="@string/note_time_of_res"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_register_phone_wrapper"
+        android:layout_marginTop="10dp">
+    <EditText
+        android:id="@+id/business_register_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/phone_number_bus_reg"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_start_time_wrapper"
+        android:layout_marginTop="10dp">
+
+
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:id="@+id/business_start_time"
+            android:imeOptions="actionNext"
+            android:hint="@string/opening_at_bus_reg"/>
+        <Button
+            android:id="@+id/start_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+
+
+            android:text="@string/pick_time" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/business_finish_time_wrapper"
+        android:layout_marginTop="10dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:id="@+id/business_finish_time"
+            android:imeOptions="actionNext"
+            android:hint="@string/closing_at_bus_reg"/>
+        <Button
+            android:id="@+id/finish_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_time"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:text="@string/create_bus_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/business_register_create_button"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:text="@string/cancel_bus_reg_btn"
+            android:layout_marginRight="35dp"
+            android:layout_toLeftOf="@+id/create"
+            android:id="@+id/business_register_cancel_button"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
